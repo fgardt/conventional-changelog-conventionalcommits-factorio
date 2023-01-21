@@ -1,0 +1,26 @@
+{
+  "name": "conventional-changelog-conventionalcommits-factorio",
+  "version": "1.0.0",
+  "description": "conventional-changelog preset for factorio mod changelogs",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "factorio"
+  ],
+  "author": "fgardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/issues"
+  },
+  "homepage": "https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio#readme",
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "lodash": "^4.17.15",
+    "q": "^1.5.1"
+  }
+}
