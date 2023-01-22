@@ -1,9 +1,3 @@
-## {{#if @root.linkCompare~}}
-  [{{version}}]({{compareUrlFormat}})
-{{~else}}
-  {{~version}}
-{{~/if}}
-{{~#if title}} "{{title}}"
-{{~/if}}
-{{~#if date}} ({{date}})
-{{/if}}
+---------------------------------------------------------------------------------------------------
+Version: {{version}}
+Date: {{#if date}}{{date}}{{/else}}????{{/if}}

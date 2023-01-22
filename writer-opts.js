@@ -179,16 +179,16 @@ function defaultConfig (config) {
   config.types = config.types || [
     { type: 'feat', section: 'Features' },
     { type: 'feature', section: 'Features' },
-    { type: 'fix', section: 'Bug Fixes' },
-    { type: 'perf', section: 'Performance Improvements' },
-    { type: 'revert', section: 'Reverts' },
-    { type: 'docs', section: 'Documentation', hidden: true },
-    { type: 'style', section: 'Styles', hidden: true },
-    { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
-    { type: 'refactor', section: 'Code Refactoring', hidden: true },
-    { type: 'test', section: 'Tests', hidden: true },
-    { type: 'build', section: 'Build System', hidden: true },
-    { type: 'ci', section: 'Continuous Integration', hidden: true }
+    { type: 'fix', section: 'Bugfixes' },
+    { type: 'perf', section: 'Optimizations' },
+    { type: 'revert', section: 'Changes', hidden: true },
+    { type: 'docs', section: 'Info', hidden: true },
+    { type: 'style', section: 'Gui', hidden: true },
+    { type: 'chore', section: 'Info', hidden: true },
+    { type: 'refactor', section: 'Changes', hidden: true },
+    { type: 'test', section: 'Info', hidden: true },
+    { type: 'build', section: 'Info', hidden: true },
+    { type: 'ci', section: 'Info', hidden: true }
   ]
   config.issueUrlFormat = config.issueUrlFormat ||
     '{{host}}/{{owner}}/{{repository}}/issues/{{id}}'
