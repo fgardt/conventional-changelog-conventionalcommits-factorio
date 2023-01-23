@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-conventionalcommits-factorio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "conventional-changelog preset for factorio mod changelogs",
   "main": "index.js",
   "scripts": {},

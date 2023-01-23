@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/compare/v1.0.2...v1.0.3) (2023-01-23)
+
+
+### Bug Fixes
+
+* no newline at end of changelog ([8850319](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/commit/8850319378ba0c4cdc61d9daad0e242986af96b5))
+
 ## [1.0.2](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/compare/v1.0.1...v1.0.2) (2023-01-23)
 
 
