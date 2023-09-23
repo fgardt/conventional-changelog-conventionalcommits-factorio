@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/compare/v1.0.3...v1.1.0) (2023-09-23)
+
+
+### Features
+
+* added more sections ([29a981f](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/commit/29a981f29345ef105ac91acdfe289c8860568c75))
+
 ## [1.0.3](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/compare/v1.0.2...v1.0.3) (2023-01-23)
 
 
