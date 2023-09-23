@@ -158,7 +158,7 @@ function getWriterOpts (config) {
     // the groupings of commit messages, e.g., Features vs., Bug Fixes, are
     // sorted based on their probable importance:
     commitGroupsSort: (a, b) => {
-      const commitGroupOrder = ['Reverts', 'Performance Improvements', 'Bug Fixes', 'Features']
+      const commitGroupOrder = ['Features', 'Graphics', 'Sounds', 'Optimizations', 'Balancing', 'Changes', 'Gui', 'Control', 'Translation', 'Locale', 'Bugfixes', 'Compatibility', 'Info']
       const gRankA = commitGroupOrder.indexOf(a.title)
       const gRankB = commitGroupOrder.indexOf(b.title)
       if (gRankA >= gRankB) {
@@ -176,19 +176,25 @@ function getWriterOpts (config) {
 // merge user set configuration with default configuration.
 function defaultConfig (config) {
   config = config || {}
+
+  // sections according to the list of default sections here: https://forums.factorio.com/viewtopic.php?p=409587#p409587
   config.types = config.types || [
+    { type: 'gui', section: 'Gui' },
+    { type: 'info', section: 'Info' },
+    { type: 'fix', section: 'Bugfixes' },
     { type: 'feat', section: 'Features' },
     { type: 'feature', section: 'Features' },
-    { type: 'fix', section: 'Bugfixes' },
+    { type: 'balance', section: 'Balancing' },
     { type: 'perf', section: 'Optimizations' },
-    { type: 'revert', section: 'Changes', hidden: true },
-    { type: 'docs', section: 'Info', hidden: true },
-    { type: 'style', section: 'Gui', hidden: true },
-    { type: 'chore', section: 'Info', hidden: true },
-    { type: 'refactor', section: 'Changes', hidden: true },
-    { type: 'test', section: 'Info', hidden: true },
-    { type: 'build', section: 'Info', hidden: true },
-    { type: 'ci', section: 'Info', hidden: true }
+    { type: 'performance', section: 'Optimizations' },
+    { type: 'compat', section: 'Compatibility' },
+    { type: 'compatibility', section: 'Compatibility' },
+    { type: 'graphics', section: 'Graphics' },
+    { type: 'sound', section: 'Sounds' },
+    { type: 'locale', section: 'Locale' },
+    { type: 'translate', section: 'Translation' },
+    { type: 'control', section: 'Control' },
+    { type: 'other', section: 'Changes' },
   ]
   config.issueUrlFormat = config.issueUrlFormat ||
     '{{host}}/{{owner}}/{{repository}}/issues/{{id}}'
