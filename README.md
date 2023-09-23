@@ -14,7 +14,7 @@ Scopes will be used as a prefix for the description in the changelog. \
 _"Official" sections picked from [this forum thread](https://forums.factorio.com/viewtopic.php?p=409587#p409587)._
 
 | Commit type                 | Changelog section |
-| ---------------------       | ----------------- |
+| --------------------------- | ----------------- |
 | `feat` or `feature`         | `Features`        |
 | `fix`                       | `Bugfixes`        |
 | `perf` or `performance`     | `Optimizations`   |
