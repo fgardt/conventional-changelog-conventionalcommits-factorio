@@ -1,3 +1,7 @@
+# ARCHIVED
+
+To achieve the functionality of this package just configuring any conventional-changelog package is enough.
+
 [![Release](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/fgardt/conventional-changelog-conventionalcommits-factorio/actions/workflows/release.yml)
 
 # conventional-changelog-conventionalcommits-factorio
